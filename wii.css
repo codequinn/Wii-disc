@@ -1,0 +1,200 @@
+.wii{
+    width: 100px;
+    height: 950px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
+.face{
+    width: 850px;
+    height: 190px;
+    position: absolute;
+    left: 80px;
+    top: 190px;
+    background: rgb(238,238,238);
+background: linear-gradient(90deg, rgb(235, 233, 233) 0%, rgb(236, 229, 229) 50%, rgb(238, 225, 225) 100%);
+box-shadow: 0px 65px 15px -10px rgba(0,0,0,0.75);
+}
+
+
+.top {
+    border-bottom: 60px solid rgb(219, 209, 209);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	height: 0;
+	width: 660px;
+  
+    position: absolute;
+    left: 74px;
+    top: 130px;
+   
+}
+
+.bottom {
+    border-bottom: 40px solid rgb(223, 212, 212);
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	height: 0;
+	width: 840px;
+   transform: rotate(180deg);
+
+    position: absolute;
+    left: 79px;
+    top: 380px;
+    
+}
+.disc{
+    width: 700px;
+    height: 20px;
+    
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 5px 24px -4px rgba(246, 243, 243, 0.75);
+    position: absolute;
+    left: 150px;
+    top: 230px;
+    border-radius: 20px;
+    border: 5px solid rgb(221, 212, 212);
+}
+.disc-outer {
+    width: 725px;
+    height: 40px;
+    background-color: rgb(192, 34, 34);
+    box-shadow: 14px 15px 35px -10px rgba(0,0,0,0.3);
+    position: absolute;
+    left: 145px;
+    top: 223px;
+    border-radius: 20px;
+    border: 2px solid rgb(246, 246, 246);
+}
+.eject {
+    width: 80px;
+    height: 25px;
+    background: rgb(233, 12, 12);
+    background: linear-gradient(0deg, rgb(218, 11, 11) 0%, rgb(243, 9, 9) 0%, rgb(214, 9, 9) 50%, rgb(207, 16, 16) 76%, rgb(185, 18, 18) 100%);
+
+    opacity: 0.6;
+    position: absolute;
+    left: 790px;
+    top: 320px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0,0.5);
+    border-top: 3px solid  rgba(0, 0, 0,0.5);
+    border-right: 3px solid  rgba(0, 0, 0,0.5);
+    box-shadow: 14px 15px 35px -18px rgba(0,0,0,0.75);
+}
+.fa-power-off{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    position: absolute;
+    left: 200px;
+    top: 330px;
+}
+
+.power {
+    width: 80px;
+    height: 25px;
+    background: rgb(220,255,255);
+    background: linear-gradient(0deg, rgb(184, 18, 18) 0%, rgb(218, 24, 24) 0%, rgb(240, 44, 44) 50%, rgb(230, 7, 7) 73%, rgb(199, 26, 26) 100%);
+    position: absolute;
+    left: 155px;
+    top: 320px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0,0.5);
+    border-top: 3px solid  rgba(0, 0, 0,0.5);
+    border-right: 3px solid  rgba(0, 0, 0,0.5);
+    box-shadow: 14px 15px 35px -18px rgba(0,0,0,0.75);
+    opacity: 0.6;
+}
+
+
+.reset {
+    width: 80px;
+    height: 25px;
+    background: rgb(220,255,255);
+    background: linear-gradient(0deg, rgb(231, 7, 7) 0%, rgb(235, 17, 17) 0%, rgb(230, 16, 16) 50%, rgb(187, 15, 15) 76%, rgb(226, 12, 12) 100%);
+
+    opacity: 0.6;
+    position: absolute;
+    left: 255px;
+    top: 320px;
+    border-radius: 5px;
+    border: 2px solid rgba(243, 22, 22, 0.5);
+    border-top: 3px solid  rgba(247, 25, 25, 0.5);
+    border-right: 3px solid  rgba(216, 21, 21, 0.5);
+    box-shadow: 14px 15px 35px -18px rgba(212, 13, 13, 0.75);
+}
+.sd {
+    width: 340px;
+    height: 80px;
+    background-color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 355px;
+    top: 320px;
+    border-radius: 5px;
+    border-top: 3px solid rgba(209, 19, 19, 0.9);
+    border-left: 2px solid rgba(221, 29, 29, 0.5);
+    border-right: 2px solid rgba(226, 13, 13, 0.5);
+    border-bottom: 2px solid rgb(197, 13, 13);
+}
+
+.logo {
+    position: absolute;
+    width: 70px;
+    position: absolute;
+    left: 715px;
+    top: 340px;
+}
+
+.text-power {
+    color: rgb(153, 153, 153);
+    font-size: 0.8rem;
+    position: absolute;
+    left: 153px;
+    top: 300px;
+}
+
+.poweron {
+    width: 10px;
+    height: 10px;
+    background-color: chartreuse;
+    border-radius: 20px;
+    position: absolute;
+    left: 168px;
+    top: 333px;
+border: 1px solid rgba(0, 0, 0,0.3);
+box-shadow: 0px 2px 5px 2px rgba(180, 255, 145, 0.8);
+}
+
+
+
+
+.text-reset {
+    color: rgb(153, 153, 153);
+    font-size: 0.8rem;
+    position: absolute;
+    left: 270px;
+    top: 300px;
+}
+.text-eject {
+    color: rgb(153, 153, 153);
+    font-size: 0.8rem;
+    position: absolute;
+    left: 815px;
+    top: 300px;
+}
+.fa-eject {
+    color: rgb(0, 9, 9);
+    font-size: 1rem;
+    position: absolute;
+    left: 807px;
+    top: 325px;
+}
+
+
+
+
+
+
